@@ -1,20 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mrp_operations_extension
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: manufacture (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-14 13:02+0000\n"
-"PO-Revision-Date: 2016-09-09 11:31+0000\n"
+"POT-Creation-Date: 2017-09-02 09:19+0000\n"
+"PO-Revision-Date: 2017-09-22 18:26+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Dutch (Netherlands) (http://www.transifex.com/oca/OCA-manufacture-8-0/language/nl_NL/)\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/oca/OCA-"
+"manufacture-8-0/language/nl_NL/)\n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: nl_NL\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: mrp_operations_extension
@@ -60,7 +61,7 @@ msgstr ""
 #: view:mrp.work.order.produce:mrp_operations_extension.view_mrp_product_produce_wizard
 #: view:workcenter.line.finish:mrp_operations_extension.finish_wo_form_view
 msgid "Cancel"
-msgstr ""
+msgstr "Verwijderen"
 
 #. module: mrp_operations_extension
 #: view:mrp.production:mrp_operations_extension.mrp_production_operation_buttons_form_view
@@ -78,13 +79,13 @@ msgid "Capacity per cycle"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_bom.py:54
+#: code:addons/mrp_operations_extension/models/mrp_bom.py:55
 #, python-format
 msgid "Changing Routing"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_bom.py:55
+#: code:addons/mrp_operations_extension/models/mrp_bom.py:56
 #, python-format
 msgid ""
 "Changing routing will cause to change the operation in which each component "
@@ -138,7 +139,7 @@ msgstr ""
 #: field:mrp.work.order.produce,create_uid:0
 #: field:workcenter.line.finish,create_uid:0
 msgid "Created by"
-msgstr ""
+msgstr "Aangemaakt door"
 
 #. module: mrp_operations_extension
 #: field:mrp.operation.workcenter,create_date:0
@@ -146,7 +147,7 @@ msgstr ""
 #: field:mrp.work.order.produce,create_date:0
 #: field:workcenter.line.finish,create_date:0
 msgid "Created on"
-msgstr ""
+msgstr "Aangemaakt op"
 
 #. module: mrp_operations_extension
 #: field:mrp.operation.workcenter,custom_data:0
@@ -166,7 +167,7 @@ msgstr ""
 #. module: mrp_operations_extension
 #: field:mrp.routing.operation,description:0
 msgid "Description"
-msgstr ""
+msgstr "Omschrijving"
 
 #. module: mrp_operations_extension
 #: field:mrp.operation.workcenter,display_name:0
@@ -174,7 +175,7 @@ msgstr ""
 #: field:mrp.work.order.produce,display_name:0
 #: field:workcenter.line.finish,display_name:0
 msgid "Display Name"
-msgstr ""
+msgstr "Weergavenaam"
 
 #. module: mrp_operations_extension
 #: view:workcenter.line.finish:mrp_operations_extension.finish_wo_form_view
@@ -218,7 +219,7 @@ msgid "Final Product to Stock"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_production.py:151
+#: code:addons/mrp_operations_extension/models/mrp_production.py:162
 #, python-format
 msgid "Finish WO"
 msgstr ""
@@ -238,7 +239,7 @@ msgstr ""
 #: field:mrp.operation.workcenter,id:0 field:mrp.routing.operation,id:0
 #: field:mrp.work.order.produce,id:0 field:workcenter.line.finish,id:0
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: mrp_operations_extension
 #: help:mrp.routing.workcenter,do_production:0
@@ -267,7 +268,7 @@ msgstr ""
 #: field:mrp.work.order.produce,__last_update:0
 #: field:workcenter.line.finish,__last_update:0
 msgid "Last Modified on"
-msgstr ""
+msgstr "Laatst gewijzigd op"
 
 #. module: mrp_operations_extension
 #: field:mrp.operation.workcenter,write_uid:0
@@ -275,7 +276,7 @@ msgstr ""
 #: field:mrp.work.order.produce,write_uid:0
 #: field:workcenter.line.finish,write_uid:0
 msgid "Last Updated by"
-msgstr ""
+msgstr "Laatst bijgewerkt door"
 
 #. module: mrp_operations_extension
 #: field:mrp.operation.workcenter,write_date:0
@@ -283,7 +284,7 @@ msgstr ""
 #: field:mrp.work.order.produce,write_date:0
 #: field:workcenter.line.finish,write_date:0
 msgid "Last Updated on"
-msgstr ""
+msgstr "Laatst bijgewerkt op"
 
 #. module: mrp_operations_extension
 #: field:mrp.work.order.produce,lot_id:0
@@ -326,7 +327,7 @@ msgid "Materials Ready"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_production.py:134
+#: code:addons/mrp_operations_extension/models/mrp_production.py:145
 #, python-format
 msgid "Missing materials to start the production"
 msgstr ""
@@ -344,7 +345,7 @@ msgstr ""
 #. module: mrp_operations_extension
 #: field:mrp.routing.operation,name:0
 msgid "Name"
-msgstr ""
+msgstr "Naam"
 
 #. module: mrp_operations_extension
 #: view:mrp.routing.workcenter:mrp_operations_extension.mrp_routing_workcenter_form_view_inh
@@ -414,7 +415,7 @@ msgid "Previous operations finished"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_production.py:130
+#: code:addons/mrp_operations_extension/models/mrp_production.py:141
 #, python-format
 msgid "Previous operations not finished"
 msgstr ""
@@ -437,7 +438,7 @@ msgstr ""
 #. module: mrp_operations_extension
 #: field:mrp.work.order.produce,product_id:0
 msgid "Product"
-msgstr ""
+msgstr "Product"
 
 #. module: mrp_operations_extension
 #: view:mrp.production:mrp_operations_extension.mrp_production_form_view_inh

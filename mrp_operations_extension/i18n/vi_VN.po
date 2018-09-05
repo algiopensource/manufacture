@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mrp_operations_extension
-# 
+#
 # Translators:
 # Hotellook, 2014
 # Rudolf Schnapka <rs@techno-flex.de>, 2016
@@ -9,14 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: manufacture (8.0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-09-14 13:02+0000\n"
-"PO-Revision-Date: 2016-09-07 16:00+0000\n"
+"POT-Creation-Date: 2017-08-07 06:56+0000\n"
+"PO-Revision-Date: 2017-08-11 11:56+0000\n"
 "Last-Translator: OCA Transbot <transbot@odoo-community.org>\n"
-"Language-Team: Vietnamese (Viet Nam) (http://www.transifex.com/oca/OCA-manufacture-8-0/language/vi_VN/)\n"
+"Language-Team: Vietnamese (Viet Nam) (http://www.transifex.com/oca/OCA-"
+"manufacture-8-0/language/vi_VN/)\n"
+"Language: vi_VN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: vi_VN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: mrp_operations_extension
@@ -80,13 +81,13 @@ msgid "Capacity per cycle"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_bom.py:54
+#: code:addons/mrp_operations_extension/models/mrp_bom.py:55
 #, python-format
 msgid "Changing Routing"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_bom.py:55
+#: code:addons/mrp_operations_extension/models/mrp_bom.py:56
 #, python-format
 msgid ""
 "Changing routing will cause to change the operation in which each component "
@@ -220,7 +221,7 @@ msgid "Final Product to Stock"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_production.py:151
+#: code:addons/mrp_operations_extension/models/mrp_production.py:162
 #, python-format
 msgid "Finish WO"
 msgstr ""
@@ -328,7 +329,7 @@ msgid "Materials Ready"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_production.py:134
+#: code:addons/mrp_operations_extension/models/mrp_production.py:145
 #, python-format
 msgid "Missing materials to start the production"
 msgstr ""
@@ -346,7 +347,7 @@ msgstr ""
 #. module: mrp_operations_extension
 #: field:mrp.routing.operation,name:0
 msgid "Name"
-msgstr ""
+msgstr "Tên"
 
 #. module: mrp_operations_extension
 #: view:mrp.routing.workcenter:mrp_operations_extension.mrp_routing_workcenter_form_view_inh
@@ -416,7 +417,7 @@ msgid "Previous operations finished"
 msgstr ""
 
 #. module: mrp_operations_extension
-#: code:addons/mrp_operations_extension/models/mrp_production.py:130
+#: code:addons/mrp_operations_extension/models/mrp_production.py:141
 #, python-format
 msgid "Previous operations not finished"
 msgstr ""
@@ -439,7 +440,7 @@ msgstr ""
 #. module: mrp_operations_extension
 #: field:mrp.work.order.produce,product_id:0
 msgid "Product"
-msgstr ""
+msgstr "Sản phẩm"
 
 #. module: mrp_operations_extension
 #: view:mrp.production:mrp_operations_extension.mrp_production_form_view_inh
