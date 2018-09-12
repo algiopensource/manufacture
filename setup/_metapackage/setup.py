@@ -9,11 +9,13 @@ setuptools.setup(
     version=version,
     install_requires=[
         'odoo10-addon-mrp_auto_assign',
+        'odoo10-addon-mrp_bom_comparison',
         'odoo10-addon-mrp_bom_component_find',
         'odoo10-addon-mrp_bom_component_menu',
         'odoo10-addon-mrp_bom_location',
         'odoo10-addon-mrp_bom_note',
         'odoo10-addon-mrp_mto_with_stock',
+        'odoo10-addon-mrp_mto_with_stock_purchase',
         'odoo10-addon-mrp_production_note',
         'odoo10-addon-mrp_production_putaway_strategy',
         'odoo10-addon-mrp_production_request',
@@ -23,6 +25,7 @@ setuptools.setup(
         'odoo10-addon-mrp_repair_discount',
         'odoo10-addon-product_quick_bom',
         'odoo10-addon-quality_control',
+        'odoo10-addon-quality_control_mrp',
         'odoo10-addon-quality_control_stock',
     ],
     classifiers=[
